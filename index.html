@@ -3,25 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Web Portofolio Veronica Waeo</title>
 </head>
 <body>
     <!-- main countainer start -->
     <div>
         <!-- aside start -->
-        <div>
-            <div>
-                <a href="#"><span>W</span>aeo</a>
-            </div>
-            <div>
-                <span></span>
-            </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div id="navbar">
+                <a href="#home">Home</a>
+                <a href="#blog">Blog</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
         </div>
         <!-- aside end -->
         <!-- main content start -->
@@ -30,9 +25,18 @@
                 <div>
                     <div>
                         <div>
-                            <h3>Hallo, nama saya <span>Veronica Waeo</span></h3>
-                            <h4>Saya Adalah Mahasiswa Teknik Informatika</h2> <p>di universitas Sam Ratulangi Manado</p>
-                            
+                            <p>Good Morning, <b>I'm VERONICA WAEO!</b></p>
+                            <style>
+                                body {
+                                    font-family: 'Poppins', sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 20px;
+                                }
+                            </style>
+                            <p>Student of Sam Ratulangi University, Faculty of Engineering, Electrical Department, Informatics Study Program. <br>
+
+                                Currently interested and exploring the role of UI/UX Developer.</p>
                         </div>
                     </div> 
                 </div>
@@ -47,17 +51,20 @@
                     <div>
                         <div>
                             <h2>Blog</h2>
+                            <p>Let's explore</p>
                         </div>
                     </div>
                     <div>
                         <!-- services item start -->
                         <div>
                             <div>
-                                <h4>Ronaldo Bawa Al Nassr ke Semifinal Arab Club Champions Cup</h4>
-                                <p>lolos ke semifinal Arab Club Champions Cup setelah mengalahkan Raja Casablanca.  Laga Raja Casablanca vs Al Nassr di Stadion Pangeran Sultan bin Abdul Aziz, Minggu (6/8/2023) malam WIB, berakhir dengan skor 1-3.  
-
+                                <h4>The Uniqueness of Arlecchino: The Mystery of 'The Knave' Figure in Genshin Impact's Storyline</h4>
+                                <p>
+                                    <i>
+                                        Arlecchino, also known as "The Knave", has become a major focus in the Genshin Impact storyline..
+                                    </i>
                                 </p>
-                                <a href="artikel1.html">Baca Selengkapnya</a>
+                                <a href="artikel1.html">Read More</a>
                             </div>
                         </div>
                         <!-- services item end -->
@@ -68,12 +75,13 @@
                                 <div>
                                     <i></i>
                                 </div>
-                                <h4>Hasil Uji Coba: MU Butuh Gol Menit Akhir untuk Tahan Imbang Bilbao</h4>
-                                <p>Hasil pertandingan uji coba pramusim antara Manchester United vs Athletic Bilbao, Minggu (06/08/23), berakhir dengan skor imbang 1-1.
-
-                                    Sejak peluit tanda pertandingan dibunyikan, Manchester United yang tampil dengan sebagian pemain seniornya, tampil menekan ke pertahanan Athletic Bilbao.
+                                <h4>QUADLIPS Embark on a Musical Journey with New Single 'Catch Me Kiss Me'</h4>
+                                <p>
+                                    <i>
+                                        QUADLIPS, an international unit consisting of four members from group 48.. 
+                                    </i>
                                 </p>
-                                <a href="artikel2.html">Baca Selengkapnya</a>
+                                <a href="artikel2.html">Read More</a>
                             </div>
                         </div>
                         <!-- services item end -->
@@ -83,11 +91,14 @@
                                 <div>
                                     <i></i>
                                 </div>
-                                <h4>Kalahkan City via Adu Penalti, Arsenal Juara Community Shield 2023</h4>
-                                <p> Arsenal menjuarai trofi FA Community Shield musim 2023/24 setelah menang adu penalti 4-1 atas Manchester City di Stadion Wembley pada Minggu (06/8) malam WIB. 
-                                    Kedua tim bermain imbang 1-1 hingga babak kedua berakhir.
+                                <h4>JKT48's Zee's Story as the Main Character in Ancika 1995 Movie</h4>
+                                <p> 
+                                    <i>
+                                        The film by director Benni Setiawan will feature Zee JKT48 and Arbani Yasiz as the main actors. 
+                                        It is known that Zee JKT48 will..
+                                    </i>
                                 </p>
-                                <a href="artikel3.html">Baca Selengkapnya</a>
+                                <a href="artikel3.html">Read More</a>
                             </div>
                         </div>
                         <!-- services item end -->
@@ -105,7 +116,7 @@
                     </div>
                     <div>
                         <div>
-                            <h2>My Gallery :</h2>
+                            <p>A collection of my latest works and projects.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -113,32 +124,51 @@
                          <!-- portofolio item end -->
                           <!-- portofolio item start -->
                         <div>
-                            <div>
-                               <div>
-                                <img src="images/gambar5.jpg" alt="" >
-                               </div> 
-                            </div>
+                                <picture>
+                                    <source media="(min-width: 650px)" srcset="images/galeri2.jpg">
+                                    <source media="(min-width: 450px)" srcset="images/galeri2.jpg">
+                                    <source media="(min-width: 100px)" srcset="images/galeri2.jpg">
+                                    <img src="images/galeri2.jpg" alt="Project Website HME" width="350" height="250">
+                                </picture>
                         </div>
                          <!-- portofolio item end -->
                           <!-- portofolio item start -->
                         <div>
-                            <div>
-                               <div>
-                                <img src="images/gambar6.jpg" alt="">
-                               </div> 
-                            </div>
+                            <picture>
+                                <source media="(min-width: 650px)" srcset="images/galeri3.jpg">
+                                <source media="(min-width: 450px)" srcset="images/galeri3.jpg">
+                                <source media="(min-width: 100px)" srcset="images/galeri3.jpg">
+                                <img src="images/galeri3.jpg" alt="Pelantikan Badan Pengurus HME" width="350" height="250">
+                            </picture>
                         </div>
                          <!-- portofolio item end -->
                           <!-- portofolio item start -->
                         <div>
-                            <div>
-                               <div>
-                                <img src="images/gambar3.jpg" alt="">
-                               </div> 
-                            </div>
+                            <picture>
+                                <source media="(min-width: 650px)" srcset="images/galeri4.jpg">
+                                <source media="(min-width: 450px)" srcset="images/galeri4.jpg">
+                                <source media="(min-width: 100px)" srcset="images/galeri4.jpg">
+                                <img src="images/galeri4.jpg" alt="Seksi Humas Pranatal HME 2023" width="350" height="250">
+                            </picture>
                         </div>
                          <!-- portofolio item end -->
                           <!-- portofolio item start -->
+                        <div>
+                            <picture>
+                                <source media="(min-width: 650px)" srcset="images/galeri5.jpg">
+                                <source media="(min-width: 450px)" srcset="images/galeri5.jpg">
+                                <source media="(min-width: 100px)" srcset="images/galeri5.jpg">
+                                <img src="images/galeri5.jpg" alt="Typrozwolf" width="350" height="210">
+                            </picture>
+                        </div>
+                        <div>
+                            <picture>
+                                <source media="(min-width: 650px)" srcset="images/galeri8.jpg">
+                                <source media="(min-width: 450px)" srcset="images/galeri8.jpg">
+                                <source media="(min-width: 100px)" srcset="images/galeri8.jpg">
+                                <img src="images/galeri8.jpg" alt="Sumbul" width="350" height="350">
+                            </picture>
+                        </div>
                          <!-- portofolio item end -->
                     </div>
                 </div>
@@ -149,40 +179,36 @@
                 <div>
                     <div>
                         <div>
-                            <h2>Contact Me</h2>
+                            <h2>Contact</h2>
                         </div>
                     </div>
-                    <h3>Have You Any Questions</h3>
-                    <h4>I'M AT YOUR SERVICES</h4>
+                    <p>Here are the ways you can reach out to me.</p>
                     <div class="row">
-                        <!-- contact info item start -->
                         <div>
-                            <h4>Call Us On</h4>
-                            <p>+628638384774</p>
+                            <h4>WhatsApp</h4>
+                            <p>0813xxxxxxxx</p>
                         </div>
-                        <!-- contact info item end -->
-                        <!-- contact info item start -->
+                        
                         <div>
-                            <h4>Office</h4>
-                            <p>Puri</p>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/veronica-waeo-093840248/" target='_blank'>Veronica Waeo</a></p>
                         </div>
-                        <!-- contact info item end -->
-                        <!-- contact info item start -->
+
                         <div>
-                            <h4>Email</h4>
-                            <p>veronica_waeo@gmail.com</p>
+                            <h4>Github</h4>
+                            <p><a href="https://github.com/icawaeo" target='_blank'>icawaeo</a></p>
                         </div>
-                        <!-- contact info item end -->
-                        <!-- contact info item start -->
+                       
                         <div>
                             <h4>Instagram</h4>
-                            <p>@Veronica_waeo</p>
+                            <p><a href="https://www.instagram.com/icawaeo/" target='_blank'>@icawaeo</a></p>
                         </div>
-                        <!-- contact info item end -->
-                    </div>
-                    <h3>SEND ME AN EMAIL</h3>
-                    <h4>I'M VERY RESPONSIVE TO MASSAGES</h4>
-                    <!-- Contact fomrs -->
+                
+                    
+                    <h4>Email</h4>
+                    <p>You can send me an email at veronica.waeo@gmail.com or below</p>
+                    <p>I'm very responsive to messages!</p>
+                    <!-- Contact forms -->
                     <div>
                         <div>
                             <!-- Form for sending message and email -->
